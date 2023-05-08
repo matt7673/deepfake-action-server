@@ -1,3 +1,2 @@
 .vscode
-resources/voiceProfiles/*
-resources/scripts/*
+resources

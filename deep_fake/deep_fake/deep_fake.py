@@ -13,6 +13,7 @@ from elevenlabslib import *
 # up two times and adds the folder name to the path, here it is assumed to be called resources
 # can be changed to your liking just make sure that base path is the path to where scripts and voiceProfiles are.
 basePath = os.path.dirname(os.path.realpath(__file__))
+# traveling up
 basePath = os.path.dirname(basePath)
 basePath = os.path.dirname(basePath)
 dirName = 'resources'
